@@ -1,0 +1,84 @@
+.main-container{
+    padding-top: 80px;
+    width: 100vw;
+}
+
+.header{
+     position: fixed;
+     width: 100vw;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     height: 80px;
+ box-shadow: rgba(182, 179, 179, 0.15) 1.95px 1.95px 2.6px;
+ background: rgb(26, 26, 26);
+ top: 0;
+ right: 0;
+ z-index: 11;
+}
+
+.header img{
+    height: 50px;
+}
+
+.wpBtn{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    padding: 10px 15px;
+    background-color: rgb(94, 236, 11);
+    transition: all 0.3s;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+}
+
+.wpBtn:hover{
+    background-color: rgb(94, 255, 0);
+}
+
+.tgBtn{
+    background-color: rgb(96, 200, 241);
+}
+
+.tgBtn:hover{
+    background-color: skyblue;
+}
+
+.socialBtn{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.footer{
+    width: 100vw;
+background: rgb(26, 26, 26);
+color: white;
+padding: 30px;
+text-align: center;
+font-size: 0.9rem;
+}
+
+
+@media (max-width:480px) {
+    .header img{
+        height: 40px;
+    }
+
+.wpBtn{
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width:400px) {
+
+    .wpBtn{
+        font-size: 13px;
+    }
+}
