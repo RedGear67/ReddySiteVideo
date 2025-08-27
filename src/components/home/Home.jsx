@@ -10,6 +10,7 @@ import { GoPlay } from "react-icons/go";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 import cricV from "/Cric1bet.mp4"
 import laserV from "/Laxzer.mp4"
+import { FaYoutube } from "react-icons/fa";
 
 function Home() {
 
@@ -79,7 +80,7 @@ console.log(cric);
 
           <button className='playBtn cri'
             onClick={() => setCric(true)}
-          > <GoPlay /> PLAY</button>
+          > <FaYoutube style={{color:"red"}} size={22} /> PLAY</button>
         </div>
 
         <div className="video">
@@ -94,7 +95,7 @@ console.log(cric);
 
           <button className='playBtn cri'
             onClick={() => setReddy(true)}
-          > <GoPlay /> PLAY</button>
+          > <FaYoutube style={{color:"red"}} size={22} />PLAY</button>
         </div>
 
         <div className="video">
@@ -108,7 +109,7 @@ console.log(cric);
           <p>The video shows how to register, deposit, and withdraw</p>
 
           <button className='playBtn cri'
-            onClick={() => setX11(true)}> <GoPlay /> PLAY</button>
+            onClick={() => setX11(true)}> <FaYoutube style={{color:"red"}} size={22} /> PLAY</button>
         </div>
 
         <div className="video">
@@ -123,7 +124,7 @@ console.log(cric);
           <p>The video shows how to register, deposit, and withdraw</p>
 
           <button className='playBtn cri'
-            onClick={() => setLaser(true)}> <GoPlay /> PLAY</button>
+            onClick={() => setLaser(true)}> <FaYoutube style={{color:"red"}} size={22} /> PLAY</button>
         </div>
 
 
