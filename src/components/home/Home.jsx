@@ -10,6 +10,8 @@ import { GoPlay } from "react-icons/go";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 import cricV from "/Cric1bet.mp4"
 import laserV from "/Laxzer.mp4"
+import x11V from "/11xplays.mp4"
+import reddyV from "/reddybooki.mp4"
 import { FaYoutube } from "react-icons/fa";
 
 function Home() {
@@ -164,7 +166,7 @@ console.log(cric);
           </div>
         </div>
       }
-{/* 
+
       {
         x11 && <div className="videoContainer">
           <div className="video">
@@ -186,7 +188,7 @@ console.log(cric);
             <video src={reddyV} type="video/mp4" controls></video>
           </div>
         </div>
-      } */}
+      }
 
 
     </div>
