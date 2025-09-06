@@ -138,7 +138,7 @@
 .playBtn {
     padding: 7px 10px;
     display: flex;
-    margin: 10px auto;
+    margin: 10px;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -223,4 +223,35 @@
     to {
         transform: translateY(0);
     }
+}
+
+
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.btns a{
+    text-decoration: none;
+    background-color: #1E3E62;
+    color: white;
+    padding: 7px 10px;
+        font-size: 18px;
+    border: none;
+    outline: none;
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    border: 3px solid rgb(46, 35, 34);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
 }

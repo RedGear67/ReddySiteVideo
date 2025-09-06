@@ -1,18 +1,14 @@
 import React, { useEffect, useState } from 'react'
-import hero from "../../assets/hero.avif"
 import "./home.css"
-import { GiSupersonicArrow } from "react-icons/gi";
-import { FaWhatsapp } from "react-icons/fa6";
-import { PiVideoBold } from "react-icons/pi";
 import { GiInterleavedArrows } from "react-icons/gi";
-import { FaTelegram } from "react-icons/fa";
-import { GoPlay } from "react-icons/go";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 import cricV from "/Cric1bet.mp4"
 import laserV from "/Laxzer.mp4"
 import x11V from "/11xplays.mp4"
 import reddyV from "/reddybooki.mp4"
 import { FaYoutube } from "react-icons/fa";
+import { IoLogoAndroid } from "react-icons/io";
+
 
 function Home() {
 
@@ -61,7 +57,7 @@ function Home() {
   const [x11, setX11] = useState(false)
 
 
-console.log(cric);
+  console.log(cric);
 
   return (
     <div className='homeContainer'>
@@ -80,9 +76,14 @@ console.log(cric);
 
           <p>The video shows how to register, deposit, and withdraw</p>
 
-          <button className='playBtn cri'
-            onClick={() => setCric(true)}
-          > <FaYoutube style={{color:"red"}} size={22} /> PLAY</button>
+          <div className="btns">
+            <button className='playBtn cri'
+              onClick={() => setCric(true)}
+            > <FaYoutube style={{ color: "red" }} size={22} /> PLAY</button>
+
+            <a href="/Cric1bet99.apk"> <IoLogoAndroid size={22} /> APK</a>
+          </div>
+
         </div>
 
         <div className="video">
@@ -95,10 +96,18 @@ console.log(cric);
 
           <p>The video shows how to register, deposit, and withdraw</p>
 
-          <button className='playBtn cri'
-            onClick={() => setReddy(true)}
-          > <FaYoutube style={{color:"red"}} size={22} />PLAY</button>
+          <div className="btns">
+            <button className='playBtn cri'
+              onClick={() => setReddy(true)}
+            > <FaYoutube style={{ color: "red" }} size={22} />PLAY</button>
+
+            <a href="/ReddyBook.apk"> <IoLogoAndroid size={22} /> APK</a>
+          </div>
+
         </div>
+
+
+
 
         <div className="video">
           <div className='siteHead'>
@@ -110,9 +119,14 @@ console.log(cric);
 
           <p>The video shows how to register, deposit, and withdraw</p>
 
-          <button className='playBtn cri'
-            onClick={() => setX11(true)}> <FaYoutube style={{color:"red"}} size={22} /> PLAY</button>
-        </div>
+          <div className="btns">
+           <button className='playBtn cri'
+            onClick={() => setX11(true)}> <FaYoutube style={{ color: "red" }} size={22} /> PLAY</button>
+      
+            <a href="/11xPlay.apk"> <IoLogoAndroid size={22} /> APK</a>
+          </div>
+
+            </div>
 
         <div className="video">
           <div className='siteHead'>
@@ -124,10 +138,14 @@ console.log(cric);
 
 
           <p>The video shows how to register, deposit, and withdraw</p>
+                    <div className="btns">
+           <button className='playBtn cri'
+            onClick={() => setLaser(true)}> <FaYoutube style={{ color: "red" }} size={22} /> PLAY</button>
+    
+            <a href="/Laser247.apk"> <IoLogoAndroid size={22} /> APK</a>
+          </div>
 
-          <button className='playBtn cri'
-            onClick={() => setLaser(true)}> <FaYoutube style={{color:"red"}} size={22} /> PLAY</button>
-        </div>
+              </div>
 
 
 
@@ -156,7 +174,7 @@ console.log(cric);
       }
 
 
-{
+      {
         laser && <div className="videoContainer">
           <div className="video">
             <div className="closeVideo" onClick={() => setLaser(false)}>
