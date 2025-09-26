@@ -121,7 +121,7 @@
 
 }
 
-.siteHead{
+.siteHead {
     display: flex;
     gap: 10px;
     margin: 5px auto;
@@ -130,11 +130,12 @@
     justify-content: center;
 }
 
-.siteHead a{
+.siteHead a {
     text-decoration: none;
     color: rgb(8, 255, 8);
     cursor: pointer;
 }
+
 .playBtn {
     padding: 7px 10px;
     display: flex;
@@ -151,12 +152,12 @@
     font-weight: 600;
 }
 
-.cri{
+.cri {
     background-color: #f0f0f0;
     border: 3px solid salmon;
 }
 
-.DemoVisit{
+.DemoVisit {
     background-color: #FF6500;
     text-decoration: none;
     color: white;
@@ -227,7 +228,7 @@
 
 
 
-.btns{
+.btns {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -236,12 +237,12 @@
     margin-top: 15px;
 }
 
-.btns a{
+.btns a {
     text-decoration: none;
     background-color: #1E3E62;
     color: white;
     padding: 7px 10px;
-        font-size: 18px;
+    font-size: 18px;
     border: none;
     outline: none;
     display: flex;
@@ -253,5 +254,5 @@
     align-items: center;
     justify-content: center;
     gap: 5px;
-    
+
 }
