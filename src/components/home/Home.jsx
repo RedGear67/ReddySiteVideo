@@ -81,7 +81,7 @@ function Home() {
               onClick={() => setCric(true)}
             > <FaYoutube style={{ color: "red" }} size={22} /> PLAY</button>
 
-            {/* <a href="/Cric1bet99.apk"> <IoLogoAndroid size={22} /> APK</a> */}
+            <a href="/Cricx1bet99.apk"> <IoLogoAndroid size={22} /> APK</a>
           </div>
 
         </div>
@@ -101,7 +101,7 @@ function Home() {
               onClick={() => setReddy(true)}
             > <FaYoutube style={{ color: "red" }} size={22} />PLAY</button>
 
-            {/* <a href="/ReddyBook.apk"> <IoLogoAndroid size={22} /> APK</a> */}
+            <a href="/ReddyBook.apk"> <IoLogoAndroid size={22} /> APK</a>
           </div>
 
         </div>
@@ -123,7 +123,7 @@ function Home() {
            <button className='playBtn cri'
             onClick={() => setX11(true)}> <FaYoutube style={{ color: "red" }} size={22} /> PLAY</button>
       
-            {/* <a href="/11xPlay.apk"> <IoLogoAndroid size={22} /> APK</a> */}
+            <a href="/11xPlay.apk"> <IoLogoAndroid size={22} /> APK</a>
           </div>
 
             </div>
@@ -142,7 +142,7 @@ function Home() {
            <button className='playBtn cri'
             onClick={() => setLaser(true)}> <FaYoutube style={{ color: "red" }} size={22} /> PLAY</button>
     
-            {/* <a href="/Laser247.apk"> <IoLogoAndroid size={22} /> APK</a> */}
+            <a href="/Lazer247.apk"> <IoLogoAndroid size={22} /> APK</a>
           </div>
 
               </div>
