@@ -2,13 +2,13 @@ import React, { useEffect, useState } from 'react'
 import "./home.css"
 import { GiInterleavedArrows } from "react-icons/gi";
 import { FaArrowAltCircleRight } from "react-icons/fa";
-import cricV from "/Cric1bet.mp4"
-import laserV from "/Laxzer.mp4"
-import x11V from "/11xplays.mp4"
+import cricV from "/cricbet99i.mp4"
+import laserV from "/laser365.mp4"
+import x11V from "/11xplayz.mp4"
 import reddyV from "/reddybooki.mp4"
 import { FaYoutube } from "react-icons/fa";
 import { IoLogoAndroid } from "react-icons/io";
-
+import toast, { Toaster } from 'react-hot-toast';
 
 function Home() {
 
@@ -56,14 +56,17 @@ function Home() {
   const [reddy, setReddy] = useState(false)
   const [x11, setX11] = useState(false)
 
-
-  console.log(cric);
+  const popUp = (e) =>{
+    e.preventDefault();
+      toast("APK Comming Soon...")
+  }
 
   return (
     <div className='homeContainer'>
       <h1 className='bebas-neue-regular'>WELCOME TO REDDY ANNA ONLINE</h1>
       <p className='oldest' style={{ color: "#E90064" }}> <GiInterleavedArrows className='icon-rotate' /> REDDY VIDEO  <GiInterleavedArrows className='icon-rotate2' /></p>
 
+<Toaster/>
 
       <div className="videoslist">
         <div className="video">
@@ -81,7 +84,7 @@ function Home() {
               onClick={() => setCric(true)}
             > <FaYoutube style={{ color: "red" }} size={22} /> PLAY</button>
 
-            <a href="/Cricx1bet99.apk"> <IoLogoAndroid size={22} /> APK</a>
+            <a href="" onClick={(e)=>popUp(e)}> <IoLogoAndroid size={22} /> APK</a>
           </div>
 
         </div>
@@ -101,7 +104,7 @@ function Home() {
               onClick={() => setReddy(true)}
             > <FaYoutube style={{ color: "red" }} size={22} />PLAY</button>
 
-            <a href="/ReddyBook.apk"> <IoLogoAndroid size={22} /> APK</a>
+            <a href="" onClick={(e)=>popUp(e)}> <IoLogoAndroid size={22} /> APK</a>
           </div>
 
         </div>
@@ -123,7 +126,7 @@ function Home() {
            <button className='playBtn cri'
             onClick={() => setX11(true)}> <FaYoutube style={{ color: "red" }} size={22} /> PLAY</button>
       
-            <a href="/11xPlay.apk"> <IoLogoAndroid size={22} /> APK</a>
+            <a href="" onClick={(e)=>popUp(e)}> <IoLogoAndroid size={22} /> APK</a>
           </div>
 
             </div>
@@ -142,7 +145,7 @@ function Home() {
            <button className='playBtn cri'
             onClick={() => setLaser(true)}> <FaYoutube style={{ color: "red" }} size={22} /> PLAY</button>
     
-            <a href="/Lazer247.apk"> <IoLogoAndroid size={22} /> APK</a>
+            <a href="" onClick={(e)=>popUp(e)}> <IoLogoAndroid size={22} /> APK</a>
           </div>
 
               </div>
