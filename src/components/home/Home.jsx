@@ -84,7 +84,7 @@ function Home() {
               onClick={() => setCric(true)}
             > <FaYoutube style={{ color: "red" }} size={22} /> PLAY</button>
 
-            <a href="/Crix1bet99.apk"> <IoLogoAndroid size={22} /> APK</a>
+            <a href="Cricx1bet99.apk"> <IoLogoAndroid size={22} /> APK</a>
           </div>
 
         </div>
@@ -104,7 +104,7 @@ function Home() {
               onClick={() => setReddy(true)}
             > <FaYoutube style={{ color: "red" }} size={22} />PLAY</button>
 
-            <a href="ReddyBook.apk" > <IoLogoAndroid size={22} /> APK</a>
+            <a href="Reddybook.apk" > <IoLogoAndroid size={22} /> APK</a>
           </div>
 
         </div>
