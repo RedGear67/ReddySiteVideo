@@ -5,7 +5,7 @@ import { FaArrowAltCircleRight } from "react-icons/fa";
 import cricV from "/crix_mb.mp4"
 import laserV from "/laser.mp4"
 import x11V from "/11xiPlay.mp4"
-import reddyV from "/REDDYIBOOK.mp4"
+import reddyV from "/reddy.mp4"
 import { FaYoutube } from "react-icons/fa";
 import { IoLogoAndroid } from "react-icons/io";
 import toast, { Toaster } from 'react-hot-toast';
