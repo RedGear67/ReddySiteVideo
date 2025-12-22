@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import "./home.css"
 import { GiInterleavedArrows } from "react-icons/gi";
 import { FaArrowAltCircleRight } from "react-icons/fa";
-import cricV from "/crix_mb.mp4"
+import cricV from "/crix.mp4"
 import laserV from "/laser.mp4"
 import x11V from "/11xiPlay.mp4"
 import reddyV from "/reddy.mp4"
