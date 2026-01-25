@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react'
 import "./home.css"
 import { GiInterleavedArrows } from "react-icons/gi";
 import { FaArrowAltCircleRight } from "react-icons/fa";
-import cricV from "/crix.mp4"
+import cricV from "/cri1cbet99.mp4"
 import laserV from "/laser.mp4"
 import x11V from "/11xiPlay.mp4"
-import reddyV from "/reddy.mp4"
+import reddyV from "/REDDYIBOOK.mp4"
 import { FaYoutube } from "react-icons/fa";
 import { IoLogoAndroid } from "react-icons/io";
 import toast, { Toaster } from 'react-hot-toast';
@@ -84,7 +84,7 @@ function Home() {
               onClick={() => setCric(true)}
             > <FaYoutube style={{ color: "red" }} size={22} /> PLAY</button>
 
-            <a href="Cricx1bet99.apk"> <IoLogoAndroid size={22} /> APK</a>
+            <a href="Cri1cbet99.apk"> <IoLogoAndroid size={22} /> APK</a>
           </div>
 
         </div>
@@ -104,7 +104,7 @@ function Home() {
               onClick={() => setReddy(true)}
             > <FaYoutube style={{ color: "red" }} size={22} />PLAY</button>
 
-            <a href="Reddybook.apk" > <IoLogoAndroid size={22} /> APK</a>
+            <a href="ReddyiBook.apk" > <IoLogoAndroid size={22} /> APK</a>
           </div>
 
         </div>
@@ -126,7 +126,7 @@ function Home() {
            <button className='playBtn cri'
             onClick={() => setX11(true)}> <FaYoutube style={{ color: "red" }} size={22} /> PLAY</button>
       
-            <a href="11ixPlay.apk" > <IoLogoAndroid size={22} /> APK</a>
+            <a href="11iXPlay.apk" > <IoLogoAndroid size={22} /> APK</a>
           </div>
 
             </div>
